@@ -1,0 +1,6 @@
+//需要装babel-preset-2015这个包
+//这个文件没有配置的时候会报错
+{
+  "presets":["es2015"],
+  "plugins":["transform-decorators-legacy"]
+}
