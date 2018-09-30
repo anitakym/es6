@@ -1,6 +1,5 @@
 // 处理命令行参数的 gulp -production
 // decribe 给人看的
-// Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.
 import yargs from 'yargs'
 
 const args = yargs
@@ -23,7 +22,6 @@ const args = yargs
     describe: 'log'
   })
 
-  //内容映射
   .option('sourcemap',{
     describe: 'force the creation of sourcemap'
   })
